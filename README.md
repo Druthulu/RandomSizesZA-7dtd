@@ -1,18 +1,30 @@
 # RandomSizesZA 1.2.27.2
  7 Days to die 1.2.27
+ 
  Random Sizes for Zombies and Animals
+ 
  Network synced communication using custom monobehaviour net packages
+ 
  Sync sizes from server to clients
+ 
  Works single player, non-dedicated and dedicated servers
+ 
  Error checking
+ 
  Null Ref checking
+ 
  DebugMode for very verbose logging, useful for patching future versions of the game
 
  Many hours went into this.
 
+
+
 Roadmap:
+
  Set health and attack power based on size by a factor of 10x per 10% change in size.
+ 
  Impose limits on sizes
+
  
 <!-- FEATURES -->
 		<!-- 
