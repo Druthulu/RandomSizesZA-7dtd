@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\",
+  "WorkspaceRootPath": "D:\\git\\RandomSizesZA-7dtd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|d:\\git\\7dtd-v1.2-cs.mods\\randomsizes-animal-zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\randomzombiesize\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|d:\\git\\7dtd-v1.2-cs.mods\\randomsizes-animal-zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\randomzombiesize\\rza_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\rza_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\randomzombiesize\\enityalivecopypropertiesfromentityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|d:\\git\\randomsizesza-7dtd\\randomzombiesize\\enityalivecopypropertiesfromentityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\enityalivecopypropertiesfromentityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\randomzombiesize\\netpkgrza_scale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrza_scale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\rza_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\rza_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\randomzombiesize\\netpkgrza_dictupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\netpkgrza_dictsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrza_dictsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\netpkgrza_dictupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrza_dictupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\randomzombiesize\\netpkgrza_dictsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrza_dictsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\netpkgrza_scale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrza_scale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|d:\\git\\randomsizesza-7dtd\\randomzombiesize\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\entityscalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\entityscalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,18 +37,18 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 208,
+          "DockedWidth": 204,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Init.cs",
-              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\Init.cs",
+              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\Init.cs",
               "RelativeDocumentMoniker": "RandomZombieSize\\Init.cs",
-              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\Init.cs",
+              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\Init.cs",
               "RelativeToolTip": "RandomZombieSize\\Init.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwv4sAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwI8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T04:21:48.612Z",
               "EditorCaption": ""
@@ -52,66 +56,83 @@
           ]
         },
         {
-          "DockedWidth": 192,
+          "DockedWidth": 196,
           "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NetPkgRZA_Scale.cs",
-              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\NetPkgRZA_Scale.cs",
-              "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_Scale.cs",
-              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\NetPkgRZA_Scale.cs",
-              "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_Scale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAANAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "EntityScaleHandler.cs",
+              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EntityScaleHandler.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\EntityScaleHandler.cs",
+              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EntityScaleHandler.cs",
+              "RelativeToolTip": "RandomZombieSize\\EntityScaleHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T04:42:31.383Z"
+              "WhenOpened": "2025-02-16T23:24:41.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "NetPkgRZA_DictUpdate.cs",
-              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
-              "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
-              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
-              "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Title": "NetPkgRZA_Scale.cs",
+              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_Scale.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_Scale.cs",
+              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_Scale.cs",
+              "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_Scale.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwEkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T01:35:54.295Z"
+              "WhenOpened": "2025-02-07T04:42:31.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NetPkgRZA_DictSync.cs",
-              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\NetPkgRZA_DictSync.cs",
-              "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_DictSync.cs",
-              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\NetPkgRZA_DictSync.cs",
-              "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_DictSync.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDQAAAApAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "NetPkgRZA_DictUpdate.cs",
+              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
+              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
+              "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wCsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T01:34:22.865Z"
+              "WhenOpened": "2025-02-09T01:35:54.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EnityAliveCopyPropertiesFromEntityClass.cs",
-              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
-              "RelativeDocumentMoniker": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
-              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
-              "RelativeToolTip": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
+              "Title": "NetPkgRZA_DictSync.cs",
+              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictSync.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_DictSync.cs",
+              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictSync.cs",
+              "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_DictSync.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T04:03:20.643Z"
+              "WhenOpened": "2025-02-09T01:34:22.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnityAliveCopyPropertiesFromEntityClass.cs",
+              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "RelativeToolTip": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T04:03:20.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "RZA_Utils.cs",
-              "DocumentMoniker": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\RZA_Utils.cs",
+              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\RZA_Utils.cs",
               "RelativeDocumentMoniker": "RandomZombieSize\\RZA_Utils.cs",
-              "ToolTip": "D:\\git\\7DTD-v1.2-cs.mods\\RandomSizes-Animal-Zombies\\new combo mod\\src\\5 - works completely - need to add client side dictionary removal and first join sync\\RandomZombieSize\\RZA_Utils.cs",
+              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\RZA_Utils.cs",
               "RelativeToolTip": "RandomZombieSize\\RZA_Utils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T16:17:07.02Z",
               "EditorCaption": ""

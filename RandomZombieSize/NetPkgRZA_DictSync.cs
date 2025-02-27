@@ -10,7 +10,7 @@ public class NetPkgRZA_DictSync : NetPackage
     {
         this.Count = entityScaleDict2.Count;
         this.EntityScaleDict = entityScaleDict2;
-        RZA_Utils.LOD($"NetPkgRZA_DictSync ToClient count:{this.Count} expected size:{this.Count *4 + this.Count *4} bytes");
+        //RZA_Utils.LOD($"NetPkgRZA_DictSync ToClient count:{this.Count} expected size:{this.Count *4 + this.Count *4} bytes");
         return this;
     }
 
@@ -23,7 +23,7 @@ public class NetPkgRZA_DictSync : NetPackage
             float value = _br.ReadSingle();
             this.EntityScaleDict.Add(key, value);
         }
-        RZA_Utils.LOD($"NetPkgRZA_DictSync Read count:{this.Count} result size:{this.Count * 4 + this.Count * 4} bytes");
+        //RZA_Utils.LOD($"NetPkgRZA_DictSync Read count:{this.Count} result size:{this.Count * 4 + this.Count * 4} bytes");
     }
 
     public override void write(PooledBinaryWriter _bw)
@@ -35,27 +35,27 @@ public class NetPkgRZA_DictSync : NetPackage
             _bw.Write(kvp.Key);
             _bw.Write(kvp.Value);
         }
-        RZA_Utils.LOD($"NetPkgRZA_DictSync Write count:{this.Count} result size:{this.Count * 4 + this.Count * 4} bytes");
+        //RZA_Utils.LOD($"NetPkgRZA_DictSync Write count:{this.Count} result size:{this.Count * 4 + this.Count * 4} bytes");
     }
 
     public override void ProcessPackage(World _world, GameManager _callbacks)
     {
-        RZA_Utils.LOD("NetPkgRZA_DictSync ProcessPackage start");
+        //RZA_Utils.LOD("NetPkgRZA_DictSync ProcessPackage start");
         if (_world == null) return;
         if (SingletonMonoBehaviour<ConnectionManager>.Instance.IsServer)
         {
             // server wont see this I suppose
-            RZA_Utils.LOD("NetPkgRZA_DictSync serverside, nothing to do");
+            //RZA_Utils.LOD("NetPkgRZA_DictSync serverside, nothing to do");
         }
         else
         {
-            RZA_Utils.LOD($"NetPkgRZA_DictSync Client ProcessPackge. recieved count:{this.Count}");
+            //RZA_Utils.LOD($"NetPkgRZA_DictSync Client ProcessPackge. recieved count:{this.Count}");
             Init.entityScaleDict.Clear();
             foreach (var kvp in this.EntityScaleDict)
             {
                 Init.entityScaleDict.Add(kvp.Key, kvp.Value);
             }
-            RZA_Utils.LOD($"NetPkgRZA_DictSync Client ProcessPackge. Synced Dictionary count:{Init.entityScaleDict.Count}");
+            //RZA_Utils.LOD($"NetPkgRZA_DictSync Client ProcessPackge. Synced Dictionary count:{Init.entityScaleDict.Count}");
         }
     }
 

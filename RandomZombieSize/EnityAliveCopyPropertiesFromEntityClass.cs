@@ -25,7 +25,7 @@ public class EnityAliveCopyPropertiesFromEntityClass
             (float min, float max, string eType) = RZA_Utils.MinMax(__instance);
             bool entityFoundInDict = false;
             int checkDictAttempts = 0;
-            int maxRetries = 20; // max of 2 seconds
+            int maxRetries = 200; // max of 2 seconds
 
             if (SingletonMonoBehaviour<ConnectionManager>.Instance.IsServer)
             {
@@ -38,13 +38,13 @@ public class EnityAliveCopyPropertiesFromEntityClass
                 // Client search local dict and skip net pkg if possible
                 if (Init.entityScaleDict.ContainsKey(__instance.entityId))
                 {
-                    RZA_Utils.LOD($"Main Postfix client found key in dict, no net pkg needed");
+                    //RZA_Utils.LOD($"Main Postfix client found key in dict, no net pkg needed");
                     entityFoundInDict = true;
                 }
                 else
                 {
                     // if key not in dict, send net pkg
-                    RZA_Utils.LOD($"Main Postfix. client failed to find key in dict, sent data to server {__instance.entityId} {eType}");
+                    //RZA_Utils.LOD($"Main Postfix. client failed to find key in dict, sent data to server {__instance.entityId} {eType}");
                     SingletonMonoBehaviour<ConnectionManager>.Instance.SendToServer(
                         NetPackageManager.GetPackage<NetPkgRZA_Scale>()
                             .ToServer(__instance.entityId, eType));
@@ -54,7 +54,7 @@ public class EnityAliveCopyPropertiesFromEntityClass
             while (checkDictAttempts < maxRetries && !entityFoundInDict && __instance != null) //added null reff check
             {
                 checkDictAttempts++;
-                RZA_Utils.LOD($"Postfix awaiting NetOkg update Attempt #{checkDictAttempts}");
+                //RZA_Utils.LOD($"Postfix awaiting NetOkg update Attempt #{checkDictAttempts}");
 
                 if (__instance != null) // added null reff check
                 {
@@ -62,15 +62,15 @@ public class EnityAliveCopyPropertiesFromEntityClass
                 }
                 if (entityFoundInDict)
                 {
-                    RZA_Utils.LOD($"Postfix awaiting NetOkg update Found:{entityFoundInDict}");
+                    //RZA_Utils.LOD($"Postfix awaiting NetOkg update Found:{entityFoundInDict}");
                     break;
                 }
                 if (checkDictAttempts >= maxRetries)
                 {
-                    RZA_Utils.LOD($"Postfix awaiting NetOkg update, failed on attempt #{checkDictAttempts}");
+                    //RZA_Utils.LOD($"Postfix awaiting NetOkg update, failed on attempt #{checkDictAttempts}");
                     break;
                 }
-                await Task.Delay(100); // Delay for 1/10 seconds before retrying
+                await Task.Delay(10); // Delay for 1/1000 seconds before retrying
             }
 
             if (entityFoundInDict && __instance != null)
@@ -81,12 +81,12 @@ public class EnityAliveCopyPropertiesFromEntityClass
 
                     scaleHandler.SetScale(entityScale);
 
-                    RZA_Utils.LOD($"Applied localScale {entityScale} to entityId: {__instance.entityId} entityName: {__instance.EntityClass.entityClassName}");
-                    RZA_Utils.LOD($"Reading localScale: {__instance.transform.localScale} from entityId: {__instance.entityId} entityName: {__instance.EntityClass.entityClassName}");
+                    //RZA_Utils.LOD($"Applied localScale {entityScale} to entityId: {__instance.entityId} entityName: {__instance.EntityClass.entityClassName}");
+                    //RZA_Utils.LOD($"Reading localScale: {__instance.transform.localScale} from entityId: {__instance.entityId} entityName: {__instance.EntityClass.entityClassName}");
                 }
                 catch
                 {
-                    RZA_Utils.LOD($"Error applying localScale, __instance is null?:{(__instance == null)}");
+                    //RZA_Utils.LOD($"Error applying localScale, __instance is null?:{(__instance == null)}");
                 }
             }
         }

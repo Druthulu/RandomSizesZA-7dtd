@@ -20,7 +20,7 @@ public class EntityScaleHandler : MonoBehaviour
     {
         currentScale = scale;
         isScaleApplied = false;  // Reset flag to allow scale application
-        RZA_Utils.LOD("EntityScaleHandler setScale method.");
+        //RZA_Utils.LOD("EntityScaleHandler setScale method.");
     }
 
     void LateUpdate()
@@ -30,9 +30,19 @@ public class EntityScaleHandler : MonoBehaviour
         {
             if (entityAlive.transform.localScale != new Vector3(currentScale, currentScale, currentScale))
             {
+                // new logic to obey Titan scale from CompoPack
+                var beforeScale = entityAlive.transform.localScale.x;
+                if (beforeScale == 0)
+                {
+                    beforeScale = 1;
+                }
+                //RZA_Utils.LOD($"[RZA] entity beforeScale: {beforeScale} will be scaled by: {currentScale}");
+                currentScale *= beforeScale;
+                //RZA_Utils.LOD($"[RZA] entity new scale: {currentScale} ");
+                // normal logic
                 entityAlive.transform.localScale = new Vector3(currentScale, currentScale, currentScale);
                 isScaleApplied = true;  // Flag to prevent re-applying the scale
-                RZA_Utils.LOD($"Applied scale {currentScale} to entityId: {entityAlive.entityId}");
+                //RZA_Utils.LOD($"Applied scale {currentScale} to entityId: {entityAlive.entityId}");
             }
         }
     }

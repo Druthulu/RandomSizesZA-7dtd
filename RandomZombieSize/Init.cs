@@ -129,7 +129,7 @@ public class Init : IModApi
     {
         // remove entity from dictionary since it wont be needed anymore
         entityScaleDict.Remove(entityKilled.entityId);
-        RZA_Utils.LOD($"Entity Killed Event. eID:{entityKilled.entityId} Entity removed from Dict");
+        //RZA_Utils.LOD($"Entity Killed Event. eID:{entityKilled.entityId} Entity removed from Dict");
 
 
         // send net pkg to client to remove from dictionary as well
@@ -141,7 +141,7 @@ public class Init : IModApi
 
     public void PlayerSpawnedInWorld(ClientInfo cInfo, RespawnType respawnReason, Vector3i pos)
     {
-        RZA_Utils.LOD("Event PlayerSpawnedInWorld - Syncing Dictionary");
+        //RZA_Utils.LOD("Event PlayerSpawnedInWorld - Syncing Dictionary");
         if (respawnReason == RespawnType.EnterMultiplayer || respawnReason == RespawnType.JoinMultiplayer)
         {
             // send net pkg of current server dictionary to sync client side dictionary

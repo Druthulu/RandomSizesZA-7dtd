@@ -12,7 +12,7 @@ public class NetPkgRZA_Scale : NetPackage
         this.EntityId = entityId;
         this.Scale = 1f;
         this.EType = eType;
-        RZA_Utils.LOD($"NetPkgRZA_Scale ToServer eID:{entityId} eType:{eType}");
+        //RZA_Utils.LOD($"NetPkgRZA_Scale ToServer eID:{entityId} eType:{eType}");
         return this;
     }
 
@@ -20,7 +20,7 @@ public class NetPkgRZA_Scale : NetPackage
     {
         this.EntityId = entityId;
         this.Scale = scale;
-        RZA_Utils.LOD($"NetPkgRZA_Scale ToClient eID:{entityId} scale:{scale} ");
+        //RZA_Utils.LOD($"NetPkgRZA_Scale ToClient eID:{entityId} scale:{scale} ");
         return this;
     }
 
@@ -29,7 +29,7 @@ public class NetPkgRZA_Scale : NetPackage
         this.EntityId = _br.ReadInt32();
         this.Scale = _br.ReadSingle();
         this. EType = _br.ReadString();
-        RZA_Utils.LOD("NetPkgRZA_Scale Read");
+        //RZA_Utils.LOD("NetPkgRZA_Scale Read");
     }
 
     public override void write(PooledBinaryWriter _bw)
@@ -38,12 +38,12 @@ public class NetPkgRZA_Scale : NetPackage
         _bw.Write(this.EntityId);
         _bw.Write(this.Scale);
         _bw.Write(this.EType);
-        RZA_Utils.LOD("NetPkgRZA_Scale Write");
+        //RZA_Utils.LOD("NetPkgRZA_Scale Write");
     }
 
     public override void ProcessPackage(World _world, GameManager _callbacks)
     {
-        RZA_Utils.LOD("NetPkgRZA_Scale ProcessPackge start");
+        //RZA_Utils.LOD("NetPkgRZA_Scale ProcessPackge start");
         if (_world == null) return;
         if (SingletonMonoBehaviour<ConnectionManager>.Instance.IsServer)
         {
@@ -59,19 +59,19 @@ public class NetPkgRZA_Scale : NetPackage
                 min = Init.animalMin;
                 max = Init.animalMax;
             }
-            RZA_Utils.LOD($"NetPkgRZA_Scale Server ProcessPackge. Searching Dict");
+            //RZA_Utils.LOD($"NetPkgRZA_Scale Server ProcessPackge. Searching Dict");
             float scale = RZA_Utils.ServerDictSearch(this.EntityId, min, max);
-            RZA_Utils.LOD($"NetPkgRZA_Scale Server ProcessPackge eID:{this.EntityId} scale:{scale}");
+            //RZA_Utils.LOD($"NetPkgRZA_Scale Server ProcessPackge eID:{this.EntityId} scale:{scale}");
             Sender.SendPackage(NetPackageManager.GetPackage<NetPkgRZA_Scale>().ToClient(this.EntityId, scale));
         }
         else
         {
-            RZA_Utils.LOD($"NetPkgRZA_Scale Client ProcessPackge. start. eID:{this.EntityId} scale:{this.Scale}");
+            //RZA_Utils.LOD($"NetPkgRZA_Scale Client ProcessPackge. start. eID:{this.EntityId} scale:{this.Scale}");
             if (this.Scale >0 && !Init.entityScaleDict.ContainsKey(this.EntityId))
             {
                 //RZA_Utils.LOD($"PKG ProcessPackge. client eID:{this.EntityId} scale:{this.Scale}");
                 Init.entityScaleDict.Add(this.EntityId, this.Scale);
-                RZA_Utils.LOD($"NetPkgRZA_Scale Client ProcessPackge. done. eID:{this.EntityId} scale:{this.Scale}");
+                //RZA_Utils.LOD($"NetPkgRZA_Scale Client ProcessPackge. done. eID:{this.EntityId} scale:{this.Scale}");
             }
         }
     }

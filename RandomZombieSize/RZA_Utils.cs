@@ -20,7 +20,7 @@ public static class RZA_Utils
         {
             return Init.randomZombieSizes;
         }
-        LOD($"entity tags does not contains animal or zombie :{string.Join(", ", entityTagList)}");
+        //LOD($"entity tags does not contains animal or zombie :{string.Join(", ", entityTagList)}");
         return false;
 	}
 
@@ -30,15 +30,15 @@ public static class RZA_Utils
         if (Init.entityScaleDict.ContainsKey(entityId))
         {
             scale = Init.entityScaleDict[entityId];
-            LOD($"DictSearch. Found existing scale {scale}");
+            //LOD($"DictSearch. Found existing scale {scale}");
         }
         else
         {
             System.Random random = new System.Random();
             scale = (float)(random.NextDouble() * (max - min) + min);
-            LOD($"DictSearch. Generating new scale {scale}");
+            //LOD($"DictSearch. Generating new scale {scale}");
             Init.entityScaleDict.Add(entityId, scale);
-            LOD($"DictSearch. Added entityId:{entityId} and scale:{scale} to dictionary");
+            //LOD($"DictSearch. Added entityId:{entityId} and scale:{scale} to dictionary");
         }
         return scale;
     }
