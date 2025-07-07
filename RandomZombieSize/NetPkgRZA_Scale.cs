@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using static EAIBlockIf;
 
 public class NetPkgRZA_Scale : NetPackage
@@ -35,11 +36,34 @@ public class NetPkgRZA_Scale : NetPackage
     public override void write(PooledBinaryWriter _bw)
     {
         base.write(_bw);
-        _bw.Write(this.EntityId);
-        _bw.Write(this.Scale);
-        _bw.Write(this.EType);
+        WriteInt(_bw, this.EntityId);
+        WriteFloat(_bw, this.Scale);
+        WriteString(_bw, this.EType);
         //RZA_Utils.LOD("NetPkgRZA_Scale Write");
     }
+    private void WriteInt(PooledBinaryWriter bw, int value)
+    {
+        byte[] buf = BitConverter.GetBytes(value);
+        bw.Write(buf, 0, buf.Length); // Make sure PooledBinaryWriter has this overload!
+    }
+    private void WriteFloat(PooledBinaryWriter bw, float value)
+    {
+        byte[] buf = BitConverter.GetBytes(value);
+        bw.Write(buf, 0, buf.Length);
+    }
+    private void WriteString(PooledBinaryWriter bw, string value)
+    {
+        if (value == null)
+        {
+            WriteInt(bw, -1); // Indicate null string
+            return;
+        }
+
+        byte[] strBytes = System.Text.Encoding.UTF8.GetBytes(value);
+        WriteInt(bw, strBytes.Length); // Write string length as prefix
+        bw.Write(strBytes, 0, strBytes.Length); // Write actual string bytes
+    }
+
 
     public override void ProcessPackage(World _world, GameManager _callbacks)
     {

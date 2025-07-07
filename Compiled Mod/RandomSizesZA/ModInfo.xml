@@ -2,7 +2,7 @@
 <xml>
 	<Name value="RandomSizesZA" />
 	<DisplayName value="Random Sizes for Zombies and Animals" />
-	<Version value="1.2.27.2" />
+	<Version value="2.0.1.0" />
 	<Description value="Randomize Zombie and Animal Sizes for more variety. Network communication for synced data" />
 	<Author value="McTaco" />
 	<Website value="" />

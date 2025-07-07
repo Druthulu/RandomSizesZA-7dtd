@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using static EAIBlockIf;
 
 public class NetPkgRZA_DictUpdate : NetPackage
@@ -21,9 +22,15 @@ public class NetPkgRZA_DictUpdate : NetPackage
     public override void write(PooledBinaryWriter _bw)
     {
         base.write(_bw);
-        _bw.Write(this.EntityId);
+        WriteInt(_bw, this.EntityId);
         //RZA_Utils.LOD("NetPkgRZA_DictUpdate Write");
     }
+    private void WriteInt(PooledBinaryWriter bw, int value)
+    {
+        byte[] buf = BitConverter.GetBytes(value);
+        bw.Write(buf, 0, buf.Length); // Make sure PooledBinaryWriter has this overload!
+    }
+
 
     public override void ProcessPackage(World _world, GameManager _callbacks)
     {

@@ -27,8 +27,8 @@ public class Init : IModApi
         Log.Out(" Loading Patch: " + base.GetType().ToString());
 		Harmony harmony = new Harmony(base.GetType().ToString());
 		harmony.PatchAll(Assembly.GetExecutingAssembly());
-        ModEvents.EntityKilled.RegisterHandler(new  Action<Entity, Entity>(this.EntityKilled));
-        ModEvents.PlayerSpawnedInWorld.RegisterHandler(new Action<ClientInfo, RespawnType, Vector3i>(PlayerSpawnedInWorld));
+        ModEvents.EntityKilled.RegisterHandler(this.EntityKilled);
+        ModEvents.PlayerSpawnedInWorld.RegisterHandler(this.PlayerSpawnedInWorld);
     }
 
     public void ReadXML()
@@ -125,8 +125,9 @@ public class Init : IModApi
         }
     }
 
-    public void EntityKilled(Entity entityKilled, Entity entityKiller)
+    public void EntityKilled(ref ModEvents.SEntityKilledData data)
     {
+        var entityKilled = data.KilledEntitiy;
         // remove entity from dictionary since it wont be needed anymore
         entityScaleDict.Remove(entityKilled.entityId);
         //RZA_Utils.LOD($"Entity Killed Event. eID:{entityKilled.entityId} Entity removed from Dict");
@@ -139,8 +140,11 @@ public class Init : IModApi
 
     }
 
-    public void PlayerSpawnedInWorld(ClientInfo cInfo, RespawnType respawnReason, Vector3i pos)
+    public void PlayerSpawnedInWorld(ref ModEvents.SPlayerSpawnedInWorldData data)
+    //public void PlayerSpawnedInWorld(ClientInfo cInfo, RespawnType respawnReason, Vector3i pos)
     {
+        var respawnReason = data.RespawnType;
+
         //RZA_Utils.LOD("Event PlayerSpawnedInWorld - Syncing Dictionary");
         if (respawnReason == RespawnType.EnterMultiplayer || respawnReason == RespawnType.JoinMultiplayer)
         {

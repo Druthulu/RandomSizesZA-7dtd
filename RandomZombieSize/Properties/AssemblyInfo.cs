@@ -7,7 +7,7 @@ using System.Runtime.Versioning;
 using System.Security;
 using System.Security.Permissions;
 
-[assembly: AssemblyVersion("1.2.27.2")]
+[assembly: AssemblyVersion("2.0.1.0")]
 [assembly: AssemblyTitle("RandomSizesZA")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
