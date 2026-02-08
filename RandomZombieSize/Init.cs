@@ -4,8 +4,6 @@ using System.Reflection;
 using System.Linq;
 using System.Xml;
 using HarmonyLib;
-using static vp_Message;
-using static EAIBlockIf;
 
 
 public class Init : IModApi
@@ -19,6 +17,8 @@ public class Init : IModApi
     public static float animalMax = 1.25f;
     public static Dictionary<int, float> entityScaleDict = new Dictionary<int, float>();
     public static bool debugMode = false;
+    // race condition fix using Actions
+    public static Dictionary<int, Action<float>> PendingScaleCallbacks = new Dictionary<int, Action<float>>();
 
     public void InitMod(Mod _modInstance)
 	{
@@ -101,25 +101,25 @@ public class Init : IModApi
         }
         if (animalMin > animalMax)
         {
-            RZA_Utils.LO("ERR: animalMin is greater than animalMax, using defaults of 0.5 to 1.5");
+            RZA_Utils.LO("ERR: animalMin is greater than animalMax, using defaults of 0.75 to 1.25");
             animalMin = 0.75f;
             animalMax = 1.25f;
         }
         if (zombieMin > zombieMax)
         {
-            RZA_Utils.LO("ERR: zombieMin is greater than zombieMax, using defaults of 0.5 to 1.5");
+            RZA_Utils.LO("ERR: zombieMin is greater than zombieMax, using defaults of 0.75 to 1.25");
             zombieMin = 0.75f;
             zombieMax = 1.25f;
         }
         if (animalMin < 0f || animalMax < 0f)
         {
-            RZA_Utils.LO("ERR: animalMin|animalMax must be greater than 0, using defaults of 0.5 to 1.5");
+            RZA_Utils.LO("ERR: animalMin|animalMax must be greater than 0, using defaults of 0.75 to 1.25");
             animalMin = 0.75f;
             animalMax = 1.25f;
         }
         if (zombieMin < 0f || zombieMax < 0f)
         {
-            RZA_Utils.LO("ERR: zombieMin|zombieMax must be greater than 0, using defaults of 0.5 to 1.5");
+            RZA_Utils.LO("ERR: zombieMin|zombieMax must be greater than 0, using defaults of 0.75 to 1.25");
             zombieMin = 0.75f;
             zombieMax = 1.25f;
         }

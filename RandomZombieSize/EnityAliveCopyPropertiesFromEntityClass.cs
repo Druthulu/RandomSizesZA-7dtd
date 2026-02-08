@@ -36,11 +36,21 @@ public class EnityAliveCopyPropertiesFromEntityClass
             else if (!SingletonMonoBehaviour<ConnectionManager>.Instance.IsServer)
             {
                 // Client search local dict and skip net pkg if possible
-                if (Init.entityScaleDict.ContainsKey(__instance.entityId))
+                if (!Init.entityScaleDict.ContainsKey(__instance.entityId))
                 {
+                    Init.PendingScaleCallbacks[__instance.entityId] = (scale) =>
+                    {
+                        if (scaleHandler != null)
+                            scaleHandler.SetScale(scale);
+                    };
+
+                    SingletonMonoBehaviour<ConnectionManager>.Instance.SendToServer(
+                        NetPackageManager.GetPackage<NetPkgRZA_Scale>()
+                            .ToServer(__instance.entityId, eType));
+                    return;
                     //RZA_Utils.LOD($"Main Postfix client found key in dict, no net pkg needed");
-                    entityFoundInDict = true;
-                }
+                    //entityFoundInDict = true;
+                }/*
                 else
                 {
                     // if key not in dict, send net pkg
@@ -48,9 +58,9 @@ public class EnityAliveCopyPropertiesFromEntityClass
                     SingletonMonoBehaviour<ConnectionManager>.Instance.SendToServer(
                         NetPackageManager.GetPackage<NetPkgRZA_Scale>()
                             .ToServer(__instance.entityId, eType));
-                }
+                }*/
             }
-
+            /*
             while (checkDictAttempts < maxRetries && !entityFoundInDict && __instance != null) //added null reff check
             {
                 checkDictAttempts++;
@@ -72,7 +82,8 @@ public class EnityAliveCopyPropertiesFromEntityClass
                 }
                 await Task.Delay(10); // Delay for 1/1000 seconds before retrying
             }
-
+            */
+            // Shouldn't ever run, but left in for edge cases
             if (entityFoundInDict && __instance != null)
             {
                 try

@@ -66,6 +66,16 @@ public class NetPkgRZA_Scale : NetPackage
         }
         else
         {
+            // Client recieves scale from server and adds to local dict so it can be applied in EntityScaleHandler
+            if(Init.PendingScaleCallbacks.TryGetValue(this.EntityId, out var callback))
+            {
+                callback(this.Scale);
+                Init.PendingScaleCallbacks.Remove(this.EntityId);
+                //RZA_Utils.LOD($"NetPkgRZA_Scale Client ProcessPackge. Callback found and invoked for eID:{this.EntityId} scale:{this.Scale}");
+            }
+
+            // add key for later if needed
+
             //RZA_Utils.LOD($"NetPkgRZA_Scale Client ProcessPackge. start. eID:{this.EntityId} scale:{this.Scale}");
             if (this.Scale >0 && !Init.entityScaleDict.ContainsKey(this.EntityId))
             {

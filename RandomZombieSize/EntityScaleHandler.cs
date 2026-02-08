@@ -10,10 +10,12 @@ public class EntityScaleHandler : MonoBehaviour
     {
         // Ensure the MonoBehaviour is attached to an EntityAlive instance
         entityAlive = GetComponent<EntityAlive>();
+        /*
         if (entityAlive == null)
         {
             RZA_Utils.LOD("EntityScaleHandler requires an EntityAlive component.");
         }
+        */
     }
 
     public void SetScale(float scale)
