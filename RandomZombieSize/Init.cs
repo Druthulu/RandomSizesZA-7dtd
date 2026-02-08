@@ -19,6 +19,8 @@ public class Init : IModApi
     public static float animalMax = 1.25f;
     public static Dictionary<int, float> entityScaleDict = new Dictionary<int, float>();
     public static bool debugMode = false;
+    //callback to fix race condition
+    public static Dictionary<int, Action<float>> PendingScaleCallbacks = new Dictionary<int, Action<float>>();
 
     public void InitMod(Mod _modInstance)
 	{

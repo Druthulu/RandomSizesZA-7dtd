@@ -875,8 +875,6 @@ Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\UnityEngine.Cloth
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Unity.Animation.Rigging.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\UnityEngine.UI.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Unity.TextMeshPro.dll
-Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\GameSparksRT.dll
-Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\GameSparks.Api.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\NGUI.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\UnityEngine.TerrainModule.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\UnityEngine.AudioModule.dll
@@ -895,7 +893,6 @@ Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\AstarPathfindingP
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Unity.Collections.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Unity.Addressables.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Unity.Profiling.Core.dll
-Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\libnoise.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Unity.Mathematics.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Unity.Burst.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Backtrace.Unity.dll
@@ -913,7 +910,6 @@ Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\MemoryPack.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\zxing.unity.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Unity.Microsoft.GDK.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\com.rlabrecque.steamworks.net.dll
-Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\GameSparks.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\UnityEngine.InputLegacyModule.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\UnityEngine.ImageConversionModule.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\UnityEngine.StreamingModule.dll
@@ -963,7 +959,6 @@ Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\UnityEngine.ARMod
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\UnityEngine.InputModule.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\MonoMod.ILHelpers.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\MonoMod.Iced.dll
-Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\BouncyCastle_GameSparks.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Pathfinding.Ionic.Zip.Reduced.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Pathfinding.ClipperLib.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\Pathfinding.Poly2Tri.dll
@@ -976,3 +971,4 @@ Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\obj\Release\RandomSizesZA.csp
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\obj\Release\RandomSi.A714CA64.Up2Date
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\obj\Release\RandomSizesZA.dll
 Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\obj\Release\RandomSizesZA.pdb
+Z:\Storage\git\RandomSizesZA-7dtd\RandomZombieSize\bin\Release\LiteNetLib.dll
