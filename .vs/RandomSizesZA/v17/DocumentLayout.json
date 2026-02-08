@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\git\\RandomSizesZA-7dtd\\",
+  "WorkspaceRootPath": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|d:\\git\\randomsizesza-7dtd\\randomzombiesize\\enityalivecopypropertiesfromentityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\enityalivecopypropertiesfromentityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\rza_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\rza_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\netpkgrza_dictsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrza_dictsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\netpkgrza_dictupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|Z:\\Storage\\git\\RandomSizesZA-7dtd\\randomzombiesize\\netpkgrza_dictupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrza_dictupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\netpkgrza_scale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|z:\\storage\\git\\randomsizesza-7dtd\\randomzombiesize\\enityalivecopypropertiesfromentityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\enityalivecopypropertiesfromentityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|Z:\\Storage\\git\\RandomSizesZA-7dtd\\randomzombiesize\\netpkgrza_scale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrza_scale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|d:\\git\\randomsizesza-7dtd\\randomzombiesize\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|Z:\\Storage\\git\\RandomSizesZA-7dtd\\randomzombiesize\\entityscalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\entityscalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|D:\\git\\RandomSizesZA-7dtd\\randomzombiesize\\entityscalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\entityscalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|Z:\\Storage\\git\\RandomSizesZA-7dtd\\randomzombiesize\\netpkgrza_dictsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\netpkgrza_dictsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|Z:\\Storage\\git\\RandomSizesZA-7dtd\\randomzombiesize\\rza_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\rza_utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|z:\\storage\\git\\randomsizesza-7dtd\\randomzombiesize\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F332925F-BCD3-43CB-B993-D5988945CC40}|RandomZombieSize\\RandomSizesZA.csproj|solutionrelative:randomzombiesize\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,13 +42,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Init.cs",
-              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\Init.cs",
+              "DocumentMoniker": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\Init.cs",
               "RelativeDocumentMoniker": "RandomZombieSize\\Init.cs",
-              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\Init.cs",
+              "ToolTip": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\Init.cs",
               "RelativeToolTip": "RandomZombieSize\\Init.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwI8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T04:21:48.612Z",
               "EditorCaption": ""
@@ -57,28 +57,41 @@
         },
         {
           "DockedWidth": 196,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EntityScaleHandler.cs",
-              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EntityScaleHandler.cs",
-              "RelativeDocumentMoniker": "RandomZombieSize\\EntityScaleHandler.cs",
-              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EntityScaleHandler.cs",
-              "RelativeToolTip": "RandomZombieSize\\EntityScaleHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "NetPkgRZA_DictUpdate.cs",
+              "DocumentMoniker": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
+              "ToolTip": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
+              "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T23:24:41.486Z",
+              "WhenOpened": "2025-02-09T01:35:54.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "EnityAliveCopyPropertiesFromEntityClass.cs",
+              "DocumentMoniker": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "ToolTip": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "RelativeToolTip": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T04:03:20.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NetPkgRZA_Scale.cs",
-              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_Scale.cs",
+              "DocumentMoniker": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_Scale.cs",
               "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_Scale.cs",
-              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_Scale.cs",
+              "ToolTip": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_Scale.cs",
               "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_Scale.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwEkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,23 +101,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "NetPkgRZA_DictUpdate.cs",
-              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
-              "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
-              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
-              "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_DictUpdate.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA9wCsAAAASAAAAAAAAAA==",
+              "Title": "EntityScaleHandler.cs",
+              "DocumentMoniker": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EntityScaleHandler.cs",
+              "RelativeDocumentMoniker": "RandomZombieSize\\EntityScaleHandler.cs",
+              "ToolTip": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EntityScaleHandler.cs",
+              "RelativeToolTip": "RandomZombieSize\\EntityScaleHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T01:35:54.295Z",
+              "WhenOpened": "2025-02-16T23:24:41.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "NetPkgRZA_DictSync.cs",
-              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictSync.cs",
+              "DocumentMoniker": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictSync.cs",
               "RelativeDocumentMoniker": "RandomZombieSize\\NetPkgRZA_DictSync.cs",
-              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictSync.cs",
+              "ToolTip": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\NetPkgRZA_DictSync.cs",
               "RelativeToolTip": "RandomZombieSize\\NetPkgRZA_DictSync.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowDkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -113,26 +126,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnityAliveCopyPropertiesFromEntityClass.cs",
-              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
-              "RelativeDocumentMoniker": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
-              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
-              "RelativeToolTip": "RandomZombieSize\\EnityAliveCopyPropertiesFromEntityClass.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T04:03:20.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RZA_Utils.cs",
-              "DocumentMoniker": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\RZA_Utils.cs",
+              "DocumentMoniker": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\RZA_Utils.cs",
               "RelativeDocumentMoniker": "RandomZombieSize\\RZA_Utils.cs",
-              "ToolTip": "D:\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\RZA_Utils.cs",
+              "ToolTip": "Z:\\Storage\\git\\RandomSizesZA-7dtd\\RandomZombieSize\\RZA_Utils.cs",
               "RelativeToolTip": "RandomZombieSize\\RZA_Utils.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowAcAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T16:17:07.02Z",
               "EditorCaption": ""
