@@ -1,67 +1,38 @@
-# RandomSizesZA 1.2.27.2
- 7 Days to die 1.2.27
- 
- Random Sizes for Zombies and Animals
- 
- Network synced communication using custom monobehaviour net packages
- 
- Sync sizes from server to clients
- 
- Works single player, non-dedicated and dedicated servers
- 
- Error checking
- 
- Null Ref checking
- 
- DebugMode for very verbose logging, useful for patching future versions of the game
+# RandomSizesZA
 
- Many hours went into this.
+Game mod that randomizes entity scale at spawn with full multiplayer network synchronization.
 
+## Technical Overview
 
+This isn't a simple cosmetic mod — it solves the problem of keeping randomized visual state consistent across a server and all connected clients in a Unity-based multiplayer game.
 
-Roadmap:
+**Server-Authoritative RNG** — The server generates all random scale values and acts as the single source of truth. Clients never generate their own values, preventing desync.
 
- Set health and attack power based on size by a factor of 10x per 10% change in size.
- 
- Impose limits on sizes
+**Custom Network Packets** — Built custom MonoBehaviour-based network packages to transmit scale data from server to all connected clients. Handles late-joining clients, entity despawn/respawn, and connection interruptions.
 
- 
-<!-- FEATURES -->
-		<!-- 
-			Decide which features to use. All enabled by default
+**Callback Architecture** — Network sync uses callback patterns to ensure scale is applied only after the client confirms receipt and the entity is fully loaded in the scene.
 
-			true = randomize sizes
-			false = dont randomize sizes
-		-->
+**Harmony Patching** — Hooks into the game's entity spawn pipeline via Harmony to intercept and modify entities at the correct lifecycle point.
 
-		<randomZombieSizes>true</randomZombieSizes>
+**Configuration** — XML-based config for per-entity-type min/max scale ranges, feature toggles, and debug logging.
 
-		<randomAnimalSizes>true</randomAnimalSizes>
-		
+## Compatibility
 
-	<!-- Randomize sizes -->
-		<!-- 
-			Decide Min and Max to use.
+- Single player, non-dedicated servers, and dedicated servers
+- Null reference protection and error recovery
+- Verbose debug mode for diagnosing issues across game version updates
 
-			use percentage decimals, where 1.0 means regular size
-			0.5 means half size, and 2.0 means double size
-			Min must be less than or equal to Max
-			Values must be above zero
-			
-			Defaults: 0.75, 1.25
-		-->
+## Config
+```xml
+<randomZombieSizes>true</randomZombieSizes>
+<randomAnimalSizes>true</randomAnimalSizes>
+<zombieMin>0.75</zombieMin>
+<zombieMax>1.25</zombieMax>
+<animalMin>0.75</animalMin>
+<animalMax>1.25</animalMax>
+<debugMode>false</debugMode>
+```
 
-		<!-- Zombie Min/Max size -->
-		<zombieMin>0.75</zombieMin>
+## Tech Stack
 
-		<zombieMax>1.25</zombieMax>
-
-
-		<!-- Animal Min/Max size -->
-		<animalMin>0.75</animalMin>
-
-		<animalMax>1.25</animalMax>
-
-
-	<!-- Debug, dont use -->
-		<debugMode>false</debugMode>>
+C#, Harmony, Unity MonoBehaviour, Custom Network Packets, XML Configuration, Server-Authoritative Architecture
